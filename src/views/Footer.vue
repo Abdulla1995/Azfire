@@ -1,70 +1,35 @@
 <template>
     <div>
         <!-- Footer -->
-        <footer class="text-center text-lg-start bg-light text-muted mt-5">
-            <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <footer class="text-center text-lg-start text-muted mt-5 ">
 
-                <div>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-                <!-- Right -->
-            </section>
-            <!-- Section: Social media -->
 
             <!-- Section: Links  -->
             <section class="">
-                <div class="container text-center text-md-start mt-5">
+                <div class="container text-center text-md-start mt-5 pt-3">
                     <!-- Grid row -->
                     <div class="row mt-3">
                         <!-- Grid column -->
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <!-- Content -->
                             <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>Company name
+                                <i class="fas fa-gem me-3"></i>Azfire
                             </h6>
-                            <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
-                            </p>
                         </div>
                         <!-- Grid column -->
 
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Products
-                            </h6>
-                            <p>
-                                <a href="#!" class="text-reset">Angular</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">React</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Vue</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Laravel</a>
-                            </p>
+                            <router-link class="d-block text-decoration-none txt-header" to="/">Ana səhifə</router-link>
+                            <router-link class="d-block text-decoration-none txt-header"
+                                to="/services">Servislər</router-link>
+                            <router-link class="d-block text-decoration-none txt-header"
+                                to="/projects">Proyektlər</router-link>
+                            <router-link class="d-block text-decoration-none txt-header"
+                                to="/about">Haqqında</router-link>
+                            <router-link class="d-block text-decoration-none txt-header"
+                                to="/contact">Əlaqə</router-link>
                         </div>
                         <!-- Grid column -->
 
@@ -92,14 +57,15 @@
                         <!-- Grid column -->
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                            <p>
-                                <i class="fas fa-envelope me-3"></i>
-                                info@example.com
+                            <h6 class="text-uppercase fw-bold mb-4 text-light">Əlaqə</h6>
+                            <p class="text-light">"Laxas" Ltd 23, Aga-Neymatulla Str., Baku, Azerbaijan,
+                                AZ1033
                             </p>
-                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                            <a href="tel: (+994) 12-496-62-91" class="text-decoration-none text-light d-block">Tel:
+                                +99412 4966291</a>
+                            <a href="tel: (+994) 50-220-38-32" class="text-decoration-none text-light">Mob: +99450
+                                2203832</a>
+                            <p class="text-light">Fax: +99412 4966570</p>
                         </div>
                         <!-- Grid column -->
                     </div>
@@ -109,9 +75,8 @@
             <!-- Section: Links  -->
 
             <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2021 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            <div class="text-center p-4 bg-dark text-light" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 Copyright:Bütün hüquqlar qorunur.
             </div>
             <!-- Copyright -->
         </footer>
@@ -140,5 +105,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.txt-header {
+    color: #fff;
+    font-size: 20px;
 
+}
+
+.txt-header:hover {
+    color: #4cb147;
+    transition: 0.2s;
+}
+
+footer {
+    background-color: #101825;
+}
 </style>
