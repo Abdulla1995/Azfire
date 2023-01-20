@@ -100,7 +100,7 @@ export default {
 }
 
 .other-pages-img {
-    height: 700px;
+    height: 800px;
 }
 
 .home-img {
