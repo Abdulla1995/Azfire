@@ -111,7 +111,7 @@ export default new Vuex.Store({
       },
       {
         id: 6,
-        title: 'Ticaret merkezi',
+        title: 'Ticarət mərkəzi',
         description: 'Description text here',
         images: [
           require('@/assets/projects/ticaret/ticaret-1.jpg'),
@@ -134,7 +134,7 @@ export default new Vuex.Store({
       },
       {
         id: 7,
-        title: 'Gence',
+        title: 'Gəncə rayonundan',
         description: 'Description text here',
         images: [
           require('@/assets/projects/gence/gence-1.jpg'),

@@ -3,7 +3,10 @@
         :style="{ backgroundImage: 'url(' + selectedImg.img + ')' }">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid my-5 me-5">
-                <router-link class="text-decoration-none txt-header fs-1 ms-5" to="/">Azfire</router-link>
+                <router-link class="text-decoration-none txt-header fs-1 ms-5" to="/">
+                    <img src="../assets/azfire-logo.svg" alt="" width="100px">
+
+                </router-link>
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -12,10 +15,40 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <router-link class="text-decoration-none txt-header" to="/services">Servislər</router-link>
-                        </a>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle txt-header" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servislər
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li> <router-link class="dropdown-item" to="/services/servis-xidmetlerimiz">Servis
+                                        Xidmətlərimiz
+                                    </router-link>
+                                </li>
+                                <li> <router-link class="dropdown-item"
+                                        to="/services/havalandirma-sistemleri">Havalandırma Sistemləri
+                                    </router-link>
+                                </li>
+                                <li> <router-link class="dropdown-item" to="/services/isitme-sistemleri">İsitmə
+                                        Sistemləri
+                                    </router-link>
+                                </li>
+                                <li> <router-link class="dropdown-item" to="/services/soyutma-sistemleri">Soyutma
+                                        Sistemləri
+                                    </router-link>
+                                </li>
+                                <li> <router-link class="dropdown-item" to="/services/yangin-sondurme-sistemleri">Yanğın
+                                        söndürmə sistemləri
+                                    </router-link>
+                                </li>
+                                <li> <router-link class="dropdown-item"
+                                        to="/services/dozimetrik-olcu-cihazlari">Dozimetrik ölçü cihazları
+                                    </router-link>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
+
 
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">
@@ -67,7 +100,31 @@ export default {
                 {
                     page: '/projects',
                     img: require('@/assets/images/background/project.jpg')
-                }
+                },
+                {
+                    page: '/services/isitme-sistemleri',
+                    img: require('@/assets/images/background/services.png')
+                },
+                {
+                    page: '/services/havalandirma-sistemleri',
+                    img: require('@/assets/images/background/services.png')
+                },
+                {
+                    page: '/services/soyutma-sistemleri',
+                    img: require('@/assets/images/background/services.png')
+                },
+                {
+                    page: '/services/yangin-sondurme-sistemleri',
+                    img: require('@/assets/images/background/services.png')
+                },
+                {
+                    page: '/services/servis-xidmetlerimiz',
+                    img: require('@/assets/images/background/services.png')
+                },
+                {
+                    page: '/services/dozimetrik-olcu-cihazlari',
+                    img: require('@/assets/images/background/services.png')
+                },
             ],
             selectedImg: {}
         };
@@ -97,6 +154,16 @@ export default {
     background-size: cover;
     // object-fit: contain;
 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
+}
+
+.dropdown-item:hover {
+    background-color: #4cb147;
 }
 
 .other-pages-img {
