@@ -1,9 +1,9 @@
 <template>
-    <div class="container">
-        <div class="col-12 justify-content-center d-flex mt-3 ">
-            <div class="card border-0" style="width: 1000px; ">
+    <div class="container mt-5">
+        <div class="col-12 justify-content-center d-flex mt-3 animate__animated animate__backInRight animate__delay-1s">
+            <div class="card border-0">
                 <div class="card-body">
-                    <h4 class="card-title text-center">Dozimetrik ölçü cihazları</h4>
+                    <h2 class="card-title text-center">Dozimetrik ölçü cihazları</h2>
                     <p class="card-text">Dozimetrik cihazlar – onların təyinatına, vericisinin tipinə, ölçülən
                         şüalanmanın növünə və cihazın sxeminin çevirdiyi elektrik siqnallarının xarakterinə görə
                         təsnif etmək olar. Dozimetriya vasitəsilə aşağıdakı işlər yerinə yetirilir:
@@ -20,11 +20,9 @@
                         <li>Ərzaq məhsullarının, suyun, alafın radioaktiv maddələrlə zəhərlənmə dərəcələrinin
                             laboratoriyalarda ölçülməsi;</li>
                     </ul>
-
-
                 </div>
-                <img src="../assets/services/dozimetr.jpg" class="card-img-top image-card" alt="dozimetr cihazi">
-
+                <img src="../assets/services/dozimetr.jpg" class="card-img-top image-card mt-4" alt="dozimetr cihazi">
+                <img src="../assets/services/dozimetr2.jpg" class="card-img-top image-card mt-4" alt="dozimetr cihazi">
             </div>
         </div>
     </div>
@@ -51,5 +49,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p,
+li {
+    font-size: 23px;
+}
 
+.card {
+    width: 70%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 578px) {
+    .card-text {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
 </style>

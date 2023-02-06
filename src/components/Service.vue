@@ -1,10 +1,10 @@
 <template>
-    <div class="container">
+    <div class="container mt-5">
 
-        <div class="col-12 mt-3 ">
+        <div class="col-12 mt-3 animate__animated animate__backInRight animate__delay-1s">
             <img class="d-inline mx-3" src="../assets/services/servis-logo.webp" alt="logo"
                 style="width: 100px; height: 100px;">
-            <h4 class="d-inline mt-3">Servis Xidmətlərimiz aşağdakılardır:</h4>
+            <h2 class="d-inline mt-3">Servis Xidmətlərimiz aşağdakılardır:</h2>
             <ul>
                 <li>Kondisionerlərin quraşdırılması, təmizlənməsi (yuyulması), Freon doldurulması, köhnəsinin yenisi
                     ilə dəyişdirilməsi, təmiri.</li>
@@ -42,5 +42,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+li {
+    font-size: 23px;
+}
 </style>

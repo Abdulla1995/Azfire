@@ -22,11 +22,11 @@ export default new Vuex.Store({
         title: 'Ağdaş rayonundan',
         description: 'Description text here',
         images: [
-          require('@/assets/projects/agdash/agdash-1.jpg'),
+          require('@/assets/projects/agdash/agdash-5.jpg'),
           require('@/assets/projects/agdash/agdash-2.jpg'),
           require('@/assets/projects/agdash/agdash-3.jpg'),
           require('@/assets/projects/agdash/agdash-4.jpg'),
-          require('@/assets/projects/agdash/agdash-5.jpg'),
+          require('@/assets/projects/agdash/agdash-1.jpg'),
         ]
       },
       {

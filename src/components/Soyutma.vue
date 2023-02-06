@@ -1,9 +1,9 @@
 <template>
-    <div class="container">
-        <div class="col-12 justify-content-center d-flex mt-3 ">
+    <div class="container mt-5">
+        <div class="col-12 justify-content-center d-flex mt-3 animate__animated animate__backInUp animate__delay-1s">
             <div class="card border-0" style="width: 1000px; ">
                 <div class="card-body">
-                    <h4 class="card-title text-center">Soyutma Sistemləri</h4>
+                    <h2 class="card-title text-center">Soyutma Sistemləri</h2>
                     <p class="card-text">Müştərilərin seçimindən, həmçinin soyutma sistemi qurulacaq binanın
                         təyinatından asılı olaraq aşağdakı soyutma sistemlərinin layihələndirilməsi,
                         avadanlıqlarının satışını və quraşdırılması işlərini həyata keçirir:
@@ -14,7 +14,11 @@
                     <p class="lh-sm ps-2">Server otaqlarının həssas tipli soyutma sistemləri</p>
 
                 </div>
-                <img src="../assets/services/soyutma.jpg" class="card-img-top image-card" alt="soyutma sistemleri">
+                <img src="../assets/services/soyutma.jpg" class="card-img-top image-card mt-4" alt="soyutma sistemleri">
+                <img src="../assets/services/soyutma2.jpg" class="card-img-top image-card mt-4"
+                    alt="soyutma sistemleri">
+                <img src="../assets/services/soyutma3.jpg" class="card-img-top image-card mt-4"
+                    alt="soyutma sistemleri">
 
             </div>
         </div>
@@ -42,5 +46,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p {
+    font-size: 23px;
+}
 
+.card {
+    width: 1000px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 578px) {
+    .card-text {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
 </style>

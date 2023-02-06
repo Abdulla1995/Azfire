@@ -15,56 +15,64 @@
                             <img src="../assets/fire-logo.png" alt="" width="100px">
                         </div>
                         <!-- Grid column -->
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <router-link class="nav-link text-decoration-none txt-header" to="/">Ana
+                                    səhifə</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link text-decoration-none txt-header"
+                                    to="/projects">Proyektlər</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link class=" nav-link text-decoration-none txt-header"
+                                    to="/about">Haqqında</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link class=" nav-link text-decoration-none txt-header"
+                                    to="/contact">Əlaqə</router-link>
+                            </li>
+                        </ul>
 
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <router-link class="d-block text-decoration-none txt-header" to="/">Ana səhifə</router-link>
-                            <router-link class="d-block text-decoration-none txt-header"
-                                to="/services">Servislər</router-link>
-                            <router-link class="d-block text-decoration-none txt-header"
-                                to="/projects">Proyektlər</router-link>
-                            <router-link class="d-block text-decoration-none txt-header"
-                                to="/about">Haqqında</router-link>
-                            <router-link class="d-block text-decoration-none txt-header"
-                                to="/contact">Əlaqə</router-link>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+
+                                </li>
+
+                                <!-- <li class="nav-item">
+                                    <router-link class="nav-link text-decoration-none txt-header"
+                                        to="/services">Servislər</router-link>
+                                </li> -->
+                                <li class="nav-item">
+
+                                </li>
+                                <li class="nav-item">
+
+                                </li>
+                                <li class="nav-item">
+
+                                </li>
+                            </ul>
+
+
+
+
                         </div>
                         <!-- Grid column -->
 
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Useful links
-                            </h6>
-                            <p>
-                                <a href="#!" class="text-reset">Pricing</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Settings</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Orders</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Help</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
+
 
                         <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4 text-light">Əlaqə</h6>
-                            <p class="text-light">"Laxas" Ltd 23, Aga-Neymatulla Str., Baku, Azerbaijan,
-                                AZ1033
-                            </p>
+                        <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <a href="tel: (+994) 12-496-62-91" class="text-decoration-none text-light d-block">Tel:
                                 +99412 4966291</a>
                             <a href="tel: (+994) 50-220-38-32" class="text-decoration-none text-light">Mob: +99450
                                 2203832</a>
                             <p class="text-light">Fax: +99412 4966570</p>
-                        </div>
+                        </div> -->
                         <!-- Grid column -->
                     </div>
                     <!-- Grid row -->
@@ -103,15 +111,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/scss/variables.scss";
+
 .txt-header {
     color: #fff;
     font-size: 20px;
+    margin: 10px;
+    border-bottom: 1px solid #656665;
+
 
 }
 
 .txt-header:hover {
-    color: #4cb147;
+    color: $success-main;
     transition: 0.2s;
+    border-bottom: 1px solid #4cb147;
+
 }
 
 footer {

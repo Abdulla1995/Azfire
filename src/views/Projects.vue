@@ -56,9 +56,9 @@
             </div>
         </div>
         <div class="container">
-            <h3 class="text-center my-5">Aşağıda görülən layihələrimizdən</h3>
+            <h2 class="text-center my-5">Aşağıda görülən layihələrimizdən</h2>
             <div class="row">
-                <div class="col-6 project-holder" v-for="project in projects">
+                <div class="col-12 col-md-6 project-holder" v-for="project in projects">
                     <div :id="'carouselExampleIndicators' + project.id" class="carousel slide " data-bs-touch="false"
                         data-bs-interval="false">
                         <div class="carousel-indicators">
@@ -73,7 +73,7 @@
                         <div class="carousel-inner">
                             <div v-for="(image, index) in project.images" :key="index"
                                 :class="index === 0 ? 'carousel-item active' : 'carousel-item'">
-                                <img class="d-block w-100 image-project" :src="image" style="border-radius: 10px; " />
+                                <img class="d-block w-100 image-project" :src="image" style="border-radius: 5px; " />
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>{{ project.title }}</h5>
                                 </div>
@@ -121,6 +121,14 @@ export default {
 .image-project {
     width: 600px;
     height: 600px;
+}
+
+.fw-bold {
+    font-size: 20px;
+}
+
+.fst-italic {
+    font-size: 18px;
 }
 
 .project-holder {

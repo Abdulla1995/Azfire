@@ -2,15 +2,21 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import './assets/styles.scss'
+import * as VueGoogleMaps from 'vue2-google-maps'
 
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/scss/styles.scss'
 // import 'bootstrap-icons/font/bootstrap-icons.css'
 window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle.js');
 
 Vue.config.productionTip = false
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'YOUR_API_TOKEN',
+    libraries: 'places',
+  },
 
+})
 new Vue({
   router,
   store,

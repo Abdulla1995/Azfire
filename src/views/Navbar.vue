@@ -1,6 +1,8 @@
 <template>
     <div class="container-fluid img" :class="[selectedImg.page === '/' ? 'home-img' : 'other-pages-img']"
-        :style="{ backgroundImage: 'url(' + selectedImg.img + ')' }">
+        :style="{ backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(' + selectedImg.img + ')' }">
+
+        <!-- {{ selectedImg.headerText }} -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid my-5 me-5">
                 <router-link class="text-decoration-none txt-header fs-1 ms-5" to="/">
@@ -16,7 +18,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
-                            <button class="btn dropdown-toggle txt-header" type="button" id="dropdownMenuButton1"
+                            <button class="btn dropdown-toggle txt-header ps-0" type="button" id="dropdownMenuButton1"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Servislər
                             </button>
@@ -57,7 +59,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">
-                            <router-link class="text-decoration-none txt-header" to="/about">Haqqında</router-link>
+                            <router-link class="text-decoration-none txt-header" to="/about">Haqqımızda</router-link>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -82,7 +84,8 @@ export default {
             bgimages: [
                 {
                     page: '/',
-                    img: require('@/assets/images/background/home.jpg')
+                    img: require('@/assets/images/background/home.jpg'),
+                    headerText: 'Sizin sistem qurasdiraniniz'
                 },
                 {
                     page: '/about',
@@ -156,14 +159,18 @@ export default {
 
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    /* remove the gap so it doesn't close */
+@media screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        /* remove the gap so it doesn't close */
+    }
 }
 
+
+
 .dropdown-item:hover {
-    background-color: #4cb147;
+    background-color: #f0f0f0;
 }
 
 .other-pages-img {
@@ -176,10 +183,22 @@ export default {
 
 .txt-header {
     color: #fff;
+    margin-right: 40px;
+    font-size: 20px;
 }
 
 .txt-header:hover {
     color: #4cb147;
     transition: 0.2s;
+}
+
+@media screen and (max-width:576px) {
+    .home-img {
+        height: 60vh;
+    }
+
+    .other-pages-img {
+        height: 60vh;
+    }
 }
 </style>
