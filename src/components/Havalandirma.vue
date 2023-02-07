@@ -72,9 +72,21 @@ h2 {
     font-size: 40px;
 }
 
+.image-card {
+    width: 700px;
+    height: 550px;
+    margin: auto;
+}
+
 @media screen and (max-width: 578px) {
     .card-text {
         font-size: 15px;
+    }
+
+    .image-card {
+        width: 250px;
+        height: 200px;
+        margin: auto;
     }
 
     h2 {

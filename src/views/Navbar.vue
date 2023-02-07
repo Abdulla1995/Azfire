@@ -2,6 +2,10 @@
     <div class="container-fluid img" :class="[selectedImg.page === '/' ? 'home-img' : 'other-pages-img']"
         :style="{ backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(' + selectedImg.img + ')' }">
 
+        <div class="content-header-box d-none d-md-block">
+            <h1 class="content-header">{{ selectedImg.headerText }}</h1>
+        </div>
+
         <!-- {{ selectedImg.headerText }} -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid my-5 me-5">
@@ -85,16 +89,18 @@ export default {
                 {
                     page: '/',
                     img: require('@/assets/images/background/home.jpg'),
-                    headerText: 'Sizin sistem qurasdiraniniz'
+                    headerText: 'Building Together'
                 },
                 {
                     page: '/about',
-                    img: require('@/assets/images/background/About.png')
+                    img: require('@/assets/images/background/About.png'),
+                    headerText: 'Building Together'
                 },
 
                 {
                     page: '/contact',
-                    img: require('@/assets/images/background/contact.jpg')
+                    img: require('@/assets/images/background/contact.jpg'),
+                    headerText: 'Bizimlə əlaqə qurun razi olun'
                 },
                 {
                     page: '/services',
@@ -102,31 +108,38 @@ export default {
                 },
                 {
                     page: '/projects',
-                    img: require('@/assets/images/background/project.jpg')
+                    img: require('@/assets/images/background/project.jpg'),
+                    headerText: 'We take pride in our projects'
                 },
                 {
                     page: '/services/isitme-sistemleri',
-                    img: require('@/assets/images/background/services.png')
+                    img: require('@/assets/images/background/services.png'),
+                    headerText: 'We take pride in our projects'
                 },
                 {
                     page: '/services/havalandirma-sistemleri',
-                    img: require('@/assets/images/background/services.png')
+                    img: require('@/assets/images/background/services.png'),
+                    headerText: 'We take pride in our projects'
                 },
                 {
                     page: '/services/soyutma-sistemleri',
-                    img: require('@/assets/images/background/services.png')
+                    img: require('@/assets/images/background/services.png'),
+                    headerText: 'We take pride in our projects'
                 },
                 {
                     page: '/services/yangin-sondurme-sistemleri',
-                    img: require('@/assets/images/background/services.png')
+                    img: require('@/assets/images/background/services.png'),
+                    headerText: 'We take pride in our projects'
                 },
                 {
                     page: '/services/servis-xidmetlerimiz',
-                    img: require('@/assets/images/background/services.png')
+                    img: require('@/assets/images/background/services.png'),
+                    headerText: 'We take pride in our projects'
                 },
                 {
                     page: '/services/dozimetrik-olcu-cihazlari',
-                    img: require('@/assets/images/background/services.png')
+                    img: require('@/assets/images/background/services.png'),
+                    headerText: 'We take pride in our projects'
                 },
             ],
             selectedImg: {}
@@ -157,6 +170,23 @@ export default {
     background-size: cover;
     // object-fit: contain;
 
+}
+
+.content-header {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.content-header-box {
+    justify-content: center;
+    border: 1px solid;
+    width: 900px;
+    height: 300px;
+    padding-top: 110px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    margin: 350px;
 }
 
 @media screen and (min-width: 768px) {

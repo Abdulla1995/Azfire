@@ -58,13 +58,27 @@ li {
     width: 70%;
 }
 
+.image-card {
+    width: 600px;
+    height: 450px;
+    margin: auto;
+}
+
 h2 {
     font-size: 40px;
 }
 
 @media screen and (max-width: 578px) {
-    .card-text {
+
+    .card-text,
+    li {
         font-size: 15px;
+    }
+
+    .image-card {
+        width: 250px;
+        height: 200px;
+        margin: auto;
     }
 
     h2 {

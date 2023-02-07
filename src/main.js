@@ -12,8 +12,9 @@ window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle.js');
 Vue.config.productionTip = false
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'YOUR_API_TOKEN',
-    libraries: 'places',
+    key: 'AIzaSyCekiCqAf55_yDtQ5ajlKMzj_yCf2nWKpo',
+    region: 'en',
+    language: 'en',
   },
 
 })

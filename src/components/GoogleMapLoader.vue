@@ -1,12 +1,13 @@
 <template>
     <div>
-        <GmapMap :center="{ lat: 10, lng: 10 }" :zoom="7" map-type-id="terrain" style="width: 500px; height: 300px">
-
+        <GmapMap :center="{ lat: 10, lng: 10 }" :zoom="7" map-type-id="terrain" style="width: 700px; height: 500px">
+            <GmapMarker ref="myMarker" :position="google && new google.maps.LatLng(1.38, 103.8)" />
         </GmapMap>
     </div>
 </template>
 
 <script>
+import { gmapApi } from 'vue2-google-maps'
 export default {
     name: 'AzfireGoogleMapLoader',
 
@@ -14,6 +15,9 @@ export default {
         return {
 
         };
+    },
+    computed: {
+        google: gmapApi
     },
 
     mounted() {

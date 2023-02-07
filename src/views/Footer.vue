@@ -82,7 +82,7 @@
 
             <!-- Copyright -->
             <div class="text-center p-4 bg-dark text-light" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2023 Copyright:Bütün hüquqlar qorunur.
+                © 2023 Copyright: Bütün hüquqlar qorunur.
             </div>
             <!-- Copyright -->
         </footer>

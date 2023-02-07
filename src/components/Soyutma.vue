@@ -58,10 +58,21 @@ h2 {
     font-size: 40px;
 }
 
+.image-card {
+    width: 700px;
+    height: 550px;
+    margin: auto;
+}
+
 @media screen and (max-width: 578px) {
-    .card-text {
+
+    .card-text,
+    p {
         font-size: 15px;
     }
+
+
+
 
     h2 {
         font-size: 22px;
@@ -70,5 +81,12 @@ h2 {
     .card {
         width: 100%;
     }
+
+    .image-card {
+        width: 250px;
+        height: 200px;
+        margin: auto;
+    }
+
 }
 </style>
