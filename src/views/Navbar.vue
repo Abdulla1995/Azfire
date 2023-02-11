@@ -74,7 +74,7 @@
 
             </div>
         </nav>
-        <div class="content-header-box d-none d-md-block">
+        <div class="content-header-box d-none d-md-flex align-items-center">
             <h1 class="content-header">{{ selectedImg.headerText }}</h1>
         </div>
     </div>
@@ -95,7 +95,7 @@ export default {
                 {
                     page: '/about',
                     img: require('@/assets/images/background/About.png'),
-                    headerText: '“Laxas LTD” müəssisəmiz görülən işlərlə bağlı gündən günə qloballaşır.'
+                    headerText: '“Laxas LTD” yüksək keyfiyyət və ən son texnoloji həllər ilə müştərilərin xidmətindədir'
                 },
 
                 {
@@ -135,7 +135,7 @@ export default {
                 {
                     page: '/services/servis-xidmetlerimiz',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: '“Laxas LTD” yüksək keyfiyyət və ən son texnoloji həllər'
+                    headerText: '“Laxas LTD” - yüksək keyfiyyət və ən son texnoloji həllərin ünvanı'
                 },
                 {
                     page: '/services/dozimetrik-olcu-cihazlari',
@@ -188,7 +188,6 @@ export default {
     border: 1px solid;
     width: 900px;
     height: 300px;
-    padding-top: 95px;
     background: rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: auto;
