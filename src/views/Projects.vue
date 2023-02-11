@@ -2,7 +2,7 @@
     <div class="container-fuild mt-5">
         <div class="bg-light my-4 py-3">
             <div class="container">
-                <h2 class="text-center ">Görülən işlər və Layihələrimiz </h2>
+                <h2 class="text-center ">Görülən işlər və layihələrimiz </h2>
                 <ul>
                     <li>
                         <p class="fw-bold">Ağdaş rayonunda </p>

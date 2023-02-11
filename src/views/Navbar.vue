@@ -90,7 +90,7 @@ export default {
                 {
                     page: '/',
                     img: require('@/assets/images/background/home.jpg'),
-                    headerText: 'Biz layihələrimizlə qlobal güc amilinə çevrilməliyik'
+                    headerText: 'Yanğından mühafizə və havalandırma sistemləri'
                 },
                 {
                     page: '/about',
@@ -110,37 +110,37 @@ export default {
                 {
                     page: '/projects',
                     img: require('@/assets/images/background/project.jpg'),
-                    headerText: '“Laxas LTD” müəssisəmizdə görülən proyektlərlə fəxr edirik.'
+                    headerText: 'Şirkətimiz tərəfindən uğurla təhvil verilmiş layihələr'
                 },
                 {
                     page: '/services/isitme-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
+                    headerText: '“Laxas LTD” yüksək keyfiyyətli avadanlıqlar ilə sizi təmin edir '
                 },
                 {
                     page: '/services/havalandirma-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
+                    headerText: 'Müasir havalandırma qurğuları'
                 },
                 {
                     page: '/services/soyutma-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
+                    headerText: 'Avadanlıqlarımız ilə ən güclü soyutma təmin ediləcək'
                 },
                 {
                     page: '/services/yangin-sondurme-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
+                    headerText: 'Yanğından mühafizə sistemlərinin quraşdırılması'
                 },
                 {
                     page: '/services/servis-xidmetlerimiz',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
+                    headerText: '“Laxas LTD” yüksək keyfiyyət və ən son texnoloji həllər'
                 },
                 {
                     page: '/services/dozimetrik-olcu-cihazlari',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
+                    headerText: 'Dozimetrik cihazların təminatı'
                 },
             ],
             selectedImg: {}

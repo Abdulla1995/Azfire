@@ -14,7 +14,7 @@
 
         <div class="bg-light py-5">
             <div class="container">
-                <h2 class="text-center ">Görülən işlər və Layihələrimiz </h2>
+                <h2 class="text-center ">Görülən işlər və layihələrimiz </h2>
                 <ul>
                     <li>
                         <p class="fw-bold">Ağdaş rayonu </p>
