@@ -2,9 +2,7 @@
     <div class="container-fluid img" :class="[selectedImg.page === '/' ? 'home-img' : 'other-pages-img']"
         :style="{ backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(' + selectedImg.img + ')' }">
 
-        <div class="content-header-box d-none d-md-block">
-            <h1 class="content-header">{{ selectedImg.headerText }}</h1>
-        </div>
+
 
         <!-- {{ selectedImg.headerText }} -->
         <nav class="navbar navbar-expand-lg">
@@ -76,6 +74,9 @@
 
             </div>
         </nav>
+        <div class="content-header-box d-none d-md-block">
+            <h1 class="content-header">{{ selectedImg.headerText }}</h1>
+        </div>
     </div>
 </template>
 
@@ -178,6 +179,10 @@ export default {
     color: #fff;
 }
 
+.navbar-expand-lg {
+    margin-bottom: 150px;
+}
+
 .content-header-box {
     justify-content: center;
     border: 1px solid;
@@ -185,8 +190,10 @@ export default {
     height: 300px;
     padding-top: 110px;
     background: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    margin: 350px;
+    text-align: center;
+    margin: auto;
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -229,6 +236,10 @@ export default {
 
     .other-pages-img {
         height: 60vh;
+    }
+
+    .navbar-expand-lg {
+        margin-bottom: 0;
     }
 }
 </style>
