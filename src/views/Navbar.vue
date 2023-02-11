@@ -90,12 +90,12 @@ export default {
                 {
                     page: '/',
                     img: require('@/assets/images/background/home.jpg'),
-                    headerText: 'Building Together'
+                    headerText: 'Biz layihələrimizlə qlobal güc amilinə çevrilməliyik'
                 },
                 {
                     page: '/about',
                     img: require('@/assets/images/background/About.png'),
-                    headerText: 'Building Together'
+                    headerText: '“Laxas LTD” müəssisəmiz görülən işlərlə bağlı gündən günə qloballaşır.'
                 },
 
                 {
@@ -110,37 +110,37 @@ export default {
                 {
                     page: '/projects',
                     img: require('@/assets/images/background/project.jpg'),
-                    headerText: 'We take pride in our projects'
+                    headerText: '“Laxas LTD” müəssisəmizdə görülən proyektlərlə fəxr edirik.'
                 },
                 {
                     page: '/services/isitme-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: 'We take pride in our projects'
+                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
                 },
                 {
                     page: '/services/havalandirma-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: 'We take pride in our projects'
+                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
                 },
                 {
                     page: '/services/soyutma-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: 'We take pride in our projects'
+                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
                 },
                 {
                     page: '/services/yangin-sondurme-sistemleri',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: 'We take pride in our projects'
+                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
                 },
                 {
                     page: '/services/servis-xidmetlerimiz',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: 'We take pride in our projects'
+                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
                 },
                 {
                     page: '/services/dozimetrik-olcu-cihazlari',
                     img: require('@/assets/images/background/services.png'),
-                    headerText: 'We take pride in our projects'
+                    headerText: '“Laxas LTD” müəssisəmiz hər gün yeni idealarla sizlərin xidmətinizdədir.'
                 },
             ],
             selectedImg: {}
@@ -188,7 +188,7 @@ export default {
     border: 1px solid;
     width: 900px;
     height: 300px;
-    padding-top: 110px;
+    padding-top: 95px;
     background: rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: auto;
