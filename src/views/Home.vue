@@ -1,7 +1,21 @@
 <template>
-    <div class="container-fluid my-5">
+    <div class="container-fluid">
+        <div class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center section-services-title my-4">Məhsullar</h2>
+                    <div class="col-6 mb-4 bg-light" v-for="product in products">
+                        <h3 class="my-4 text-center ">{{ product.name }}</h3>
+                        <img class="image-sevices" :src="product.img" alt="product">
+                        <p class="my-3 fst-italic">{{ product.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
+
+
                 <h2 class="text-center section-services-title">Servis xidmətlərimiz</h2>
                 <div class="col-12 col-md-6 d-flex justify-content-center mb-5" v-for="service in services">
                     <div @click="selectObject(service.id)" class="bg-image text-center">
@@ -78,12 +92,15 @@ export default {
 
     data() {
         return {
-            services: []
+            services: [],
+            products: [],
         };
     },
 
     mounted() {
         this.services = this.$store.state.services
+        this.products = this.$store.state.products
+
         console.log(this.$store.state.services)
     },
 
