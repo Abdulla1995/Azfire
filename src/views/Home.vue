@@ -1,29 +1,28 @@
 <template>
     <div class="container-fluid">
-        <div class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <h2 class="text-center section-services-title my-4">Məhsullar</h2>
-                    <div class="col-6 mb-4 bg-light" v-for="product in products">
-                        <h3 class="my-4 text-center ">{{ product.name }}</h3>
-                        <img class="image-sevices" :src="product.img" alt="product">
-                        <p class="my-3 fst-italic">{{ product.description }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="container">
             <div class="row">
-
-
                 <h2 class="text-center section-services-title">Servis xidmətlərimiz</h2>
                 <div class="col-12 col-md-6 d-flex justify-content-center mb-5" v-for="service in services">
                     <div @click="selectObject(service.id)" class="bg-image text-center">
                         <h3 class="my-3">{{ service.title }}</h3>
-                        <img :src="service.img" class="image-sevices" alt="services" style="border-radius:5px">
+                        <img :src="service.img" class="image-services" alt="services" style="border-radius:5px">
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="bg-light">
+          <div class="container">
+            <div class="row">
+              <h2 class="text-center section-services-title my-4">Məhsullar</h2>
+              <div class="col-6 mb-4 bg-light text-center" v-for="product in products">
+                <h3 class="my-4">{{ product.name }}</h3>
+                <img class="image-services" :src="product.img" :alt="'product ' + product.name">
+                <p class="my-3">{{ product.description }}</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="bg-light py-5">
@@ -146,13 +145,13 @@ export default {
     font-size: 18px;
 }
 
-.image-sevices {
+.image-services {
     cursor: pointer;
     width: 400px;
     height: 300px;
 }
 
-.image-sevices:hover {
+.image-services:hover {
     transform: scale(1.1);
     box-shadow: 7px 7px 5px #797575;
     -moz-box-shadow: 0px 7px 5px #5b5050;

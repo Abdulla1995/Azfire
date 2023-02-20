@@ -205,15 +205,15 @@ export default new Vuex.Store({
     products: [
       {
         id: 1,
-        name: 'Çiller',
-        description: 'Binaların havalandırılması texnologiyasında geniş yayılanlardan biri də su soyuduculu sistemdir və yaxud proffesional dildə Çillerdir. Çiller mayeni-su və ya etilenqlikolu soyutmaq üçün avadanlıqdan təşkil olunmuşdur. Belə bir aqreqat böyük bir məkanı , elecə də bütün bir binanı soyutmağa qadirdir. Çiller suyu soyudur və onu məkanın daxilində quraşdırılmış fankoylun istilikdəyişdiricisinə , ya da havalandırmanın tərkibinə ötürür. Çillerlər bir və ya iki istilikdəyişdirici ilə istehsal olunur. Bununla əlaqədar olaraq sistem: ikiborulu-qaynar və soyuq istilikdaşıyıcı daxil olan (istilik nasosu ilə çillerdən)bir istilikdəyişdiricidən istifadə olunur;dördborulu-iki istilik dəyişdiricili. Birində istilikdaşıyıcı çillerdən, ikincidə isə isti su mərkəzi qızdırıcı sistemdən verilir.',
-        img: require('@/assets/images/product/chiller.jpg')
-      },
-      {
-        id: 2,
         name: 'VRF SİSTEMİ',
         description: 'VRF SİSTEMİ – çox miqdarda binaların(məkanların)kondisiyalaşdırılması üçün təxsis edilmiş multisahəli kondisiyalaşdırma sistemidir. VRVF kondisionerlərinin quruluşu splind sisteminin quruluşundan bir xarici və bir çox daxili(2-dən 150-ə qədər)blokun olması ilə fərqlənir. Bir məkanda quraşdırılmış VRF sistemi havanı qızdırdığı kimi ,həm də soyuda bilir,bu isə onu ofis mərkəzləri,ticarət salonları,sənaye müəssisələri,çoxmərtəbəli binalar və s üçün müxtəlif iqlim şəraitinə uyğun ən optimal avadanlıq edir. VRF sistemi hər blokun idarəetmə pultunun köməkliyi ilə hava göstəricilərinin fərdi tənzimlənməsini təmin etməyə yol verir. ',
         img: require('@/assets/images/product/vrf.png')
+      },
+      {
+        id: 2,
+        name: 'Çiller',
+        description: 'Binaların havalandırılması texnologiyasında geniş yayılanlardan biri də su soyuduculu sistemdir və yaxud proffesional dildə Çillerdir. Çiller mayeni-su və ya etilenqlikolu soyutmaq üçün avadanlıqdan təşkil olunmuşdur. Belə bir aqreqat böyük bir məkanı , elecə də bütün bir binanı soyutmağa qadirdir. Çiller suyu soyudur və onu məkanın daxilində quraşdırılmış fankoylun istilikdəyişdiricisinə , ya da havalandırmanın tərkibinə ötürür. Çillerlər bir və ya iki istilikdəyişdirici ilə istehsal olunur. Bununla əlaqədar olaraq sistem: ikiborulu-qaynar və soyuq istilikdaşıyıcı daxil olan (istilik nasosu ilə çillerdən)bir istilikdəyişdiricidən istifadə olunur;dördborulu-iki istilik dəyişdiricili. Birində istilikdaşıyıcı çillerdən, ikincidə isə isti su mərkəzi qızdırıcı sistemdən verilir.',
+        img: require('@/assets/images/product/chiller.jpg')
       },
       {
         id: 3,
