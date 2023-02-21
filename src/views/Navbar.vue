@@ -101,7 +101,7 @@ export default {
                 {
                     page: '/contact',
                     img: require('@/assets/images/background/contact.jpg'),
-                    headerText: 'Bizimlə əlaqə qurun razi olun'
+                    headerText: 'Bizimlə əlaqə qurmaq üçün'
                 },
                 {
                     page: '/services',

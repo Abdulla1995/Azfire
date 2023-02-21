@@ -1,7 +1,7 @@
 <template>
     <div>
-        <GmapMap :center="{ lat: 10, lng: 10 }" :zoom="7" map-type-id="terrain" style="width: 700px; height: 500px">
-            <GmapMarker ref="myMarker" :position="google && new google.maps.LatLng(1.38, 103.8)" />
+        <GmapMap :center="{ lat: lat, lng: lon }" :zoom="15" map-type-id="terrain" style="width: 700px; height: 500px">
+            <GmapMarker ref="myMarker" :position="google && new google.maps.LatLng(lat, lon)" />
         </GmapMap>
     </div>
 </template>
@@ -13,7 +13,8 @@ export default {
 
     data() {
         return {
-
+            lat: 40.3997734,
+            lon: 49.8752738
         };
     },
     computed: {
