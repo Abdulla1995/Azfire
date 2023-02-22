@@ -8,7 +8,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid my-5 me-5">
                 <router-link class="text-decoration-none txt-header fs-1 ms-5" to="/">
-                    <img src="../assets/fire-logo.png" alt="" width="110px">
+                    <img src="../assets/fire-logo-1.png" alt="" width="130px">
 
                 </router-link>
 
