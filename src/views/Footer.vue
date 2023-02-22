@@ -12,7 +12,7 @@
                         <!-- Grid column -->
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <!-- Content -->
-                            <img src="../assets/fire-logo.png" alt="" width="100px">
+                            <img src="../assets/fire-logo-1.png" alt="" width="110px">
                         </div>
                         <!-- Grid column -->
                         <ul class="nav justify-content-center">
@@ -43,9 +43,9 @@
                                 </li>
 
                                 <!-- <li class="nav-item">
-                                    <router-link class="nav-link text-decoration-none txt-header"
-                                        to="/services">Servislər</router-link>
-                                </li> -->
+                                                <router-link class="nav-link text-decoration-none txt-header"
+                                                    to="/services">Servislər</router-link>
+                                            </li> -->
                                 <li class="nav-item">
 
                                 </li>
@@ -67,12 +67,12 @@
 
                         <!-- Grid column -->
                         <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <a href="tel: (+994) 12-496-62-91" class="text-decoration-none text-light d-block">Tel:
-                                +99412 4966291</a>
-                            <a href="tel: (+994) 50-220-38-32" class="text-decoration-none text-light">Mob: +99450
-                                2203832</a>
-                            <p class="text-light">Fax: +99412 4966570</p>
-                        </div> -->
+                                        <a href="tel: (+994) 12-496-62-91" class="text-decoration-none text-light d-block">Tel:
+                                            +99412 4966291</a>
+                                        <a href="tel: (+994) 50-220-38-32" class="text-decoration-none text-light">Mob: +99450
+                                            2203832</a>
+                                        <p class="text-light">Fax: +99412 4966570</p>
+                                    </div> -->
                         <!-- Grid column -->
                     </div>
                     <!-- Grid row -->

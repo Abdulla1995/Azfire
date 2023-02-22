@@ -8,7 +8,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid my-5 me-5">
                 <router-link class="text-decoration-none txt-header fs-1 ms-5" to="/">
-                    <img src="../assets/azfire-logo.svg" alt="" width="100px">
+                    <img src="../assets/fire-logo-1.png" alt="" width="130px">
 
                 </router-link>
 
@@ -29,8 +29,8 @@
                                         Xidmətlərimiz
                                     </router-link>
                                 </li>
-                                <li> <router-link class="dropdown-item"
-                                        to="/services/havalandirma-sistemleri">Havalandırma Sistemləri
+                                <li> <router-link class="dropdown-item" to="/services/havalandirma-sistemleri">Havalandırma
+                                        Sistemləri
                                     </router-link>
                                 </li>
                                 <li> <router-link class="dropdown-item" to="/services/isitme-sistemleri">İsitmə
@@ -45,8 +45,8 @@
                                         söndürmə sistemləri
                                     </router-link>
                                 </li>
-                                <li> <router-link class="dropdown-item"
-                                        to="/services/dozimetrik-olcu-cihazlari">Dozimetrik ölçü cihazları
+                                <li> <router-link class="dropdown-item" to="/services/dozimetrik-olcu-cihazlari">Dozimetrik
+                                        ölçü cihazları
                                     </router-link>
                                 </li>
                             </ul>
