@@ -7,8 +7,7 @@
                 <a href="tel: (+994) 12-496-62-91" class="text-decoration-none text-dark d-block">Tel: +99412 4966291</a>
                 <a href="tel: (+994) 50-220-38-32" class="text-decoration-none text-dark">Mob: +99450 2203832</a> <br />
                 <a href="mailto:office@azairfire.com" class="text-decoration-none text-dark">Email: office@azairfire.com</a>
-                <p>Fax: +99412 4966570</p>
-
+                <p>Ofis telefon/Fax:  +994125951776</p>
             </div>
             <div class="col-md-6 col-12">
                 <GoogleMapLoader />
