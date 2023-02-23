@@ -10,7 +10,7 @@
                     <!-- Grid row -->
                     <div class="row mt-3">
                         <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-center">
                             <!-- Content -->
                             <img src="../assets/logo_main.png" alt="" width="110px">
                         </div>
