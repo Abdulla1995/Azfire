@@ -242,30 +242,43 @@ export default new Vuex.Store({
         // require('@/assets/images/product/chemist1.jpg')
 
       },
-      // {
-      //   id: 7,
-      //   name: 'Çiller',
-      //   description: '',
-      //   img: ''
-      // },
-      // {
-      //   id: 8,
-      //   name: 'Çiller',
-      //   description: '',
-      //   img: ''
-      // },
-      // {
-      //   id: 9,
-      //   name: 'Çiller',
-      //   description: '',
-      //   img: ''
-      // },
-      // {
-      //   id: 10,
-      //   name: 'Çiller',
-      //   description: '',
-      //   img: ''
-      // },
+      {
+        id: 7,
+        name: 'Stat-X® Fixed System: Electrical Units for Ordinary Locations',
+        description: 'Engineered fire suppression systems have consistently proven to be the most effective means of providing fire protection for a space. In these cases, the fire suppression agent has been carefully chosen and application rates and densities have been calculated. As long as the system is inspected and maintained, it should perform as expected and provide extinguishment or suppression in the event a fire occurs in the protected area. A typical fire suppression system consists of the agent, a discharge mechanism, and some form of a fire detection system (such as smoke, flame, or heat detectors). The concept is simple—the fire detection system detects the presence of fire, and a signal is sent to the discharge mechanism resulting in release of the fire suppression agent.',
+        img: require('@/assets/images/product/stat-x.png'),
+      },
+      {
+        id: 8,
+        name: 'Stat-X First Responder® Aerosol Fire Suppression Tool (FST)',
+        description: 'The Stat-X First Responder® is an emergency-use, condensed aerosol fire suppression tool (FST) that should always be a component of your on-hand emergency response equipment. The Stat-X First Responder excels at containing and suppressing small early-stage fires in enclosed spaces before the fire becomes unmanageable and requires a full fire department response. When fire departments fight fire with water from hose streams, there is always a corresponding increase in damage and downtime. The Stat-X First Responder is a small, light, handheld device activated by a pull actuator. It is designed to be hand tossed into an enclosed space where there is an active fire. Three and a half seconds after the pin is pulled, the Stat-X First Responder activates, filling the space with Stat-X condensed aerosol agent, immediately suppressing the fire.',
+        img: require('@/assets/images/product/stat-responder.png'),
+      },
+      {
+        id: 9,
+        name: 'Launch of GX-Force',
+        description: 'The GX-Force can detect flammable gases, Oxygen and toxic gases (Carbon monoxide and Hydrogen sulfide), which are cause explosion/Oxygen deficiency/poisoning accidents quickly and reliably by built-in pump aspiration. The CO/H2S dual sensor enables to reduces the number of sensors from four to three, and the dimension and weight have been downsized',
+        img: require('@/assets/images/product/GX-Force.jpg'),
+      },
+      {
+        id: 10,
+        name: 'Launch of AC-2S Series',
+        description: 'In the 35 years since the launch of the first AC-1 system, the AC Series has continued to meet the requirements of researchers in the field of materials research. With the world striving to achieve decarbonization, the growing use of and interest in hydrogen energy and renewable energy have generated unprecedented demand for the rapid development of high-performance materials. To meet this demand, Riken Keiki has developed the AC-2S Series to spread the use of atmospheric photoelectron yield spectrometers and spur new value creation.',
+        img: require('@/assets/images/product/AC-2S.png'),
+      },
+      {
+        id: 11,
+        name: 'Daily-Weekly programmable thermostat Freetime Evo Radio',
+        description: 'Do you want to change the thermostat, without having to carry out building work? Freetime Evo Radio is the right choice for you. This wireless programmable thermostat communicates via radio with the appropriate receiver positioned in the boiler room, allowing you to install the thermostat without the constraint of wiring.',
+        img: require('@/assets/images/product/thermo.png'),
+      },
+      {
+        id: 12,
+        name: 'Hygge radio wireless receiver',
+        description: 'Radio receiver for heating / cooling systems equipped with an integrated antenna, an output with SPDT relay and an RS485 Modbus® RTU slave communication port. Two-color LED to indicate the status of the output relay and the quality of the radio link with the relative transmitter. Self-learning of the transmission code. Equipped with bidirectional wireless technology, it allows you to receive commands from hygge thermostats to directly drive, via the relay, actuators, circulators, valves, shutters, fans, boilers or, via Modbus® communication, boilers, heat pumps or other heating systems / coolers also of modulating type',
+        img: require('@/assets/images/product/Hygge.png'),
+      },
+
     ]
   },
   getters: {

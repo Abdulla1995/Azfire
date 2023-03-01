@@ -5,6 +5,7 @@ import Services from '../views/Services.vue'
 import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
 import Projects from '../views/Projects.vue'
+import Products from '../views/Products.vue'
 import Isitme from '../components/Isitme.vue'
 import Havalandirma from '../components/Havalandirma.vue'
 import Soyutma from '../components/Soyutma.vue'
@@ -29,6 +30,11 @@ const routes = [
     path: '/projects',
     name: 'projects',
     component: Projects
+  },
+  {
+    path: '/products',
+    name: 'products',
+    component: Products
   },
   {
     path: '/about',

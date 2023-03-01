@@ -61,6 +61,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">
+                            <router-link class="text-decoration-none txt-header" to="/products">Məhsullar</router-link>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
                             <router-link class="text-decoration-none txt-header" to="/about">Haqqımızda</router-link>
                         </a>
                     </li>
