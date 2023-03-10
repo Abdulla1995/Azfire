@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container my-4">
         <h1 class="text-center">Haqqımızda</h1>
         <h3>“Laxas” Məhdud Məsuliyyətli Müəssisəsi </h3>
         <div>
@@ -45,6 +45,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

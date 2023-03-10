@@ -278,6 +278,55 @@ export default new Vuex.Store({
         description: 'Radio receiver for heating / cooling systems equipped with an integrated antenna, an output with SPDT relay and an RS485 Modbus® RTU slave communication port. Two-color LED to indicate the status of the output relay and the quality of the radio link with the relative transmitter. Self-learning of the transmission code. Equipped with bidirectional wireless technology, it allows you to receive commands from hygge thermostats to directly drive, via the relay, actuators, circulators, valves, shutters, fans, boilers or, via Modbus® communication, boilers, heat pumps or other heating systems / coolers also of modulating type',
         img: require('@/assets/images/product/Hygge.png'),
       },
+      {
+        id: 13,
+        name: 'Heated diode refrigerant gas leak detector',
+        description: 'The be cool R1 refrigerant leak detector is the tool to reliably detect all common refrigerants, thanks to the heated diode sensor. Different sensitivity levels allow the user to detect also smallest leaks, with indication on the display or with an alarm. Highly sensitive, responsive and long-lasting sensor. Reliable and easy detection of refrigerant leaks, with Automatic or Manual modes. Detection of most common refrigerants: CFCs, HFCs, HCFCs, HFOs and blends.',
+        img: require('@/assets/images/product/Heated.png'),
+      },
+      {
+        id: 14,
+        name: 'Gas sampling probe handle for Chemist series',
+        description: 'This gas sampling probe handle allows to use the probe designed for the Novo analyzer even with the Chemist analyzers. It features an interchangeable tip. Available in two different cable length: 1,8 m or 3 m. ',
+        img: require('@/assets/images/product/gas.png'),
+      },
+      {
+        id: 15,
+        name: 'Wireless refrigerant scale (up to 100 kg)',
+        description: 'The be cool B100 wireless refrigerant scale allows you to weight refrigerant gases (up to 100 kg / 220 lb) in a simple, accurate and fast way. Management and display of measured values can be done with the Seitron be cool mobile App. Stable and accurate sensor for a reliable measurement, Robust aluminum scale, with impact-resistant rubber corners, easy to transport in the handy case, Scale measurement with handheld controller or via smartphone. The kit includes: Refrigerant Scale, Handhold controller, Alkaline batteries, Transport bag, Quick Guide ',
+        img: require('@/assets/images/product/wireless.png'),
+      },
+      {
+        id: 16,
+        name: 'Methane and CO gas leakage detector Beagle Double',
+        description: 'Domestic gas and carbon monoxide (CO) and methane detector with facility for driving 230V~ cut-off valves or fans. Test button.   Not compliant with EN 50291.',
+        img: require('@/assets/images/product/methane.png'),
+      },
+      {
+        id: 17,
+        name: 'Smart Vacuum Gauge',
+        description: 'The be cool V1 digital vacuum gauge with rechargeable batteries allows you, to measure the vacuum of refrigeration systems and heat pumps in a precise and easy way. Seitron be cool mobile app allows you to monitor and transmit data in real time. Simple data visualization on wide display, Real-time data monitoring and transfer via mobile App, Offline data recording. The kit includes: Vacuum Gauge, Li-ion Battery, Quick Guide.',
+        img: require('@/assets/images/product/smart-vacum.png'),
+      },
+      {
+        id: 18,
+        name: '4-Way digital manifold',
+        description: 'Be cool M4 is the digital manifold with four-way valve block, equipped with a rechargeable battery. The execution of measurements on refrigeration and air conditioning systems and on heat pumps are facilitated by pre-configured parameters, such as superheating and subcooling, in addition to the possibility to reverse pressures on the instrument. The instrument can be remotely controlled and managed with Seitron be cool Mobile App. Pressure reversal set by the user on the instrument, Selection from more than 80 refrigerant gases (included R410, R32, R404), Intuitive and simple interface on a 5’’ touch color display, Real-time data analysis, also with mobile App, Possibility to read and export data via USB, Ideal for commissioning, servicing and maintenance of refrigeration and air conditioning systems and heat pumps.        ',
+        img: require('@/assets/images/product/digital.png'),
+      },
+      {
+        id: 19,
+        name: 'Smoke sampling probe handle',
+        description: 'The new flue gas probe has been specifically developed for the Novo analyzer. The probe features an interchangeable rod and a single connection for pressure, flue gases and temperature. This allows to connect the probe with a single gesture while granting a perfect hold. Available in two lengths: AJSJ01 - 1,80 m, AJSJ02 - 3 m',
+        img: require('@/assets/images/product/smoke.png'),
+      },
+      {
+        id: 20,
+        name: 'Threshold mode CO gas leak detector Segugio',
+        description: 'Microprocessor based domestic carbon monoxide detector with output for cut-off valves, fans or any other electrical actuators with 230V~ power supply. Carbon monoxide detection with threshold mode. Not compliant with EN 50291',
+        img: require('@/assets/images/product/threshold.png'),
+      },
+
 
     ]
   },
