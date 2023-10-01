@@ -108,7 +108,7 @@ export default {
 
     mounted() {
         this.projects = this.$store.state.projects
-        console.log(this.$store.state.projects)
+        // console.log(this.$store.state.projects)
     },
 
     methods: {

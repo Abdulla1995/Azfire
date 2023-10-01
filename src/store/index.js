@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    projects: [
+    projects:   [
       // {
       //   id: 1,
       //   slug: 'fhn-tehlukesizlik-qurasdirilmasi',
@@ -299,7 +299,7 @@ export default new Vuex.Store({
       {
         id: 16,
         name: 'Methane and CO gas leakage detector Beagle Double',
-        description: 'Domestic gas and carbon monoxide (CO) and methane detector with facility for driving 230V~ cut-off valves or fans. Test button.   Not compliant with EN 50291.',
+        description: 'Domestic gas and carbon monoxide (CO) and methane detector with facility for driving 230V~ cut-off valves or fans. Test button.     Not compliant with EN 50291.',
         img: require('@/assets/images/product/methane.png'),
       },
       {
@@ -326,8 +326,66 @@ export default new Vuex.Store({
         description: 'Microprocessor based domestic carbon monoxide detector with output for cut-off valves, fans or any other electrical actuators with 230V~ power supply. Carbon monoxide detection with threshold mode. Not compliant with EN 50291',
         img: require('@/assets/images/product/threshold.png'),
       },
-
-
+      {
+        id: 21,
+        name: 'Gas Leak Detector XP-702III',
+        description: 'Simple gas leak detector which is perfect for tracing small gas leaks. Inspection for leaks from gas outlets, rubber tubes and pipe joints of gas pipes and air conditioners. Soft case, Drain filter, Filter element, Gas probe, Dust filter, Hand strap,2 x AA alkaline battery, Instruction manual',
+        img: require('@/assets/images/product/leak.jpg'),
+      },
+      {
+        id: 22,
+        name: 'Multi Gas Detector XP-3368II-W / XP-3368II ',
+        description: 'Self-diagnosis (sensor error), Zero adjustment, Battery level indication, Flashlight, Peak-hold, LCD backlight, Audio alarm muting during gas alarm, Time indication, Alarm test, Alarm volume change, Audio muting',
+        img: require('@/assets/images/product/XP-3368.jpg'),
+      },
+      {
+        id: 23,
+        name: 'Multi Gas Detector XA-4400II',
+        description: 'Self-diagnosis (sensor trouble), Automatic air adjustment, Remaining battery level, Peak-hold, LCD backlight, Buzzer stop for gas alarm, Time & Temperature indication, Alarm test, Buzzer volume, Silent mode, Long-life mode, Data logging (datalogger kitis necessary for logging)',
+        img: require('@/assets/images/product/Xa-4400.jpg'),
+      },
+      {
+        id: 24,
+        name: 'Personal Oxygen Monitor XO-2200',
+        description: 'Pocket-sized personal oxygen monitor. For safety check by wearing in tank, manhole, tunnel construction, hold and bottom etc. Can be used continuously for 5000 hours. Available with loud buzzer, alarm lamp from 4 dimensions, peak hold function. Thin, lightweight design.',
+        img: require('@/assets/images/product/personal.jpg'),
+      },
+      {
+        id: 25,
+        name: 'Digital Oxygen Indicator XO-326IIs',
+        description: 'For safety check by wearing in tank, manhole, tunnel construction, hold and bottom etc. Continuously for up to 15,000 hours with 2 x AA alkaline batteries. Automatic Air Adjustment. Plug-in sensor installed.',
+        img: require('@/assets/images/product/indicator.jpg'),
+      },
+      {
+        id: 26,
+        name: 'Portable Semiconductor Gas Detector XPS-7II',
+        description: 'For gas leak inspection and concentration measurement at semiconductor factory where there is toxic gas. World’s Smallest Portable Gas Detector for NF3 Detection. NF3 can be detected without any optional equipment.The calibrated gas sensor unit can be replaced on site, reducing maintenance work.',
+        img: require('@/assets/images/product/portable.jpg'),
+      },
+      {
+        id: 27,
+        name: 'Carbon Monoxide Detector XP-333IIA',
+        description: 'Suitable for maintenance of gas-fired boiler, gas water heater, etc. For measurement of carbon monoxide concentration in the combustion exhaust gas due to incomplete combustion of gas equipment. Detection range is 0 to 0.499vol% for CO. High sensitivity and selectivity sensor for CO3 different audible and visual alarm levels.',
+        img: require('@/assets/images/product/carbon.jpg'),
+      },
+      {
+        id: 28,
+        name: 'Real-time VOC monitor XP-3120-V',
+        description: 'Portable VOC monitor suitable for on-site measurement of comprehensive VOCs. Oil & Gas, Industrial Safety, Environmental Measurement, Indoor Air Quality. Able to monitor concentration changes with data-logging function.',
+        img: require('@/assets/images/product/real.jpg'),
+      },
+      {
+        id: 29,
+        name: 'Portable VOC Analyzer XG-100V',
+        description: 'Low concentration VOC can be analyzed with a high degree of accuracy. Measurement for VOC in indoor. VOC inspection of electrical appliances. Easily transportable to use on site.',
+        img: require('@/assets/images/product/analyzer.jpg'),
+      },
+      {
+        id: 30,
+        name: 'Grease Steel Dust Meter SDM-72',
+        description: 'Able to diagnose the bearing condition, even long before wear-induced vibration becomes detectable, by measuring the amount of steel dust in the grease around the bearing. Simple diagnosis and trend monitoring of the wear condition of greased bearings, gears, etc.',
+        img: require('@/assets/images/product/grease.jpg'),
+      },
     ]
   },
   getters: {
