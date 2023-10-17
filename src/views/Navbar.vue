@@ -91,7 +91,7 @@ export default {
 
     data() {
         return {
-            bgimages: [
+            bgImages: [
                 {
                     page: '/',
                     img: require('@/assets/images/background/home.jpg'),
@@ -160,7 +160,7 @@ export default {
     methods: {
         setPageImage() {
             const path = this.$route.path
-            this.selectedImg = this.bgimages.find(imgObj => imgObj.page === path) || this.bgimages[0];
+            this.selectedImg = this.bgImages.find(imgObj => imgObj.page === path) || this.bgImages[0];
         }
     },
 

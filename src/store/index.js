@@ -386,6 +386,66 @@ export default new Vuex.Store({
         description: 'Able to diagnose the bearing condition, even long before wear-induced vibration becomes detectable, by measuring the amount of steel dust in the grease around the bearing. Simple diagnosis and trend monitoring of the wear condition of greased bearings, gears, etc.',
         img: require('@/assets/images/product/grease.jpg'),
       },
+      {
+        id: 31,
+        name: 'Model 3007 Series',
+        description: 'The Model 3007 Series of neutron dose survey meters combines a handheld digital meter with a 19.5 cm (7.7 in.) diameter REM ball containing a 3He detector to measure and monitor neutron radiation. Several versions of these instruments are available. The Model 3007 and Model 3007B use similar detectors that only differ by the boron concentration in the internal borated layer. The Model 3007 has a lower boron concentration and offers a typical sensitivity of 10 cpm per μSv/h (100 cpm per mrem/hr), but tends to overrespond in the 5 keV range. The Model 3007B has a higher boron concentration and a lower sensitivity, typically 4.5 cpm per μSv/h (45 cpm per mrem/hr), but does not have the same overresponse issue. The Model 3007-1 has a higher pressure detector that offers greater sensitivity, typically 17 cpm per µSv/h (170 cpm per mrem/hr), but falls under shipping regulations due to the pressure (see note on Configurations tab). “i” versions include an internal gamma detector in the meter for exposure or dose measurements. See Configurations tab for available versions.',
+        img: require('@/assets/images/product/m3007.png')
+      },
+      {
+        id: 32,
+        name: 'Model 26S\n',
+        description: 'The Ludlum Model 26S incorporates electronics and a miniature scintillation detector in an ergonomically designed, ruggedly-constructed, and water-resistant housing. The integrated unit doesn’t have a detector cable, thereby simplifying the process of frisking. The optimized configuration includes a standard 1 x 1 equivalent detector, loud Sigma audio, and large auto-ranging LCD display with automatic backlighting. These features are combined in one convenient package making it easy to detect and measure gamma fields.\n' +
+            '\n' +
+            'Operation of the Model 26S is kept simple through the use of just three buttons that are strategically placed for one-handed operation. Three modes of operation – RATE, MAX, and COUNT – are available. The RATE mode displays current radiation levels in terms of rate. MAX mode captures the highest rate detected so it is possible to determine a peak rate during frisking operations when the display is not visible. COUNT mode allows the operator to perform a survey for a predetermined time. The user-selected units can display results in a measurement of scaler counts, activity (disintegrations), time-averaged rates, or even accumulated dose.',
+        img: require('@/assets/images/product/m26s.png')
+      },
+      {
+        id: 33,
+        name: 'Model 194 Dose Equivalent Rate Meter',
+        description: 'Features: Accurate (Energy-Flat) Ambient Dose Equivalent Rate Measurements, Eliminates High False Readings of Typical microR Meters, Rugged Scintillator Will Not Leak, Low Range: Background to 19.99 µSv/h (1999 µrem/hr), High Range: 1 to 1999 µSv/h (0.1 to 199.9 mrem/hr), Improved Replacement for Bicron Microrem, "/E" Extended Version Has Low-Energy, 3.2 mg/cm2 Window for Operation Below 50 keV',
+        img: require('@/assets/images/product/m194e.png')
+      },
+      {
+        id: 34,
+        name: 'Model 3003 Series',
+        description: 'Multi-Detector Ratemeter / SCA. The Model 3003 is a durable, lightweight instrument designed for alpha, beta, gamma, or neutron radiation survey. It can support up to four external detectors, each with its own set of calibration and user parameters. The Model 3003i is a version that includes an internal GM or scintillation detector. The instrument features a large, easy-to-read LCD screen and audible alarms and is controlled using a simple seven-button interface. The unit body is made of high-impact plastic and splash resistant construction allows the instrument to be used outdoors. Four modes of operation are available – RATE, MAX, INTG, and COUNT – which can be selected by pressing the MODE button. Measurements can be collected in two sets of units (primary and secondary) for RATE, MAX, and DOSE modes, unless alpha-beta detection is selected.The user can switch between the two sets of units by pressing the UNITS button. The DETECTOR button is used to switch between the active detector settings, indicated by the colored LEDs above the control buttons. ',
+        img: require('@/assets/images/product/m3003.png')
+      },
+      {
+        id: 35,
+        name: 'Model 3014',
+        description: 'Dual-Detector Digital Survey Meter / SCA. The Ludlum Model 3014 is a durable, lightweight instrument with both an internal energy-compensated gamma detector and a connection for an external detector. It features a large, easy-to-read LCD screen and audible alarms and is controlled using a simple five-button interface. The unit body is made of high-impact plastic and splash-resistant construction allows the instrument to be used outdoors.',
+        img: require('@/assets/images/product/m3014.png')
+      },
+      {
+        id: 36,
+        name: 'Model 3078 Series',
+        description: 'The Model 3078 Series Stretch Scopes are designed to survey areas for gamma radiation while maintaining distance from potentially high radiation fields. These instruments include external GM detectors mounted at the end of a 4.7 m (15.3 ft.) carbon fiber telescoping pole, allowing the detector to reach areas difficult to access with other types of instruments. The Model 3078i versions have an additional internal GM or scintillation detector for monitoring user dose exposure.',
+        img: require('@/assets/images/product/m3078.png')
+      },
+      {
+        id: 37,
+        name: 'Model 3101',
+        description: 'Portable Tritium in Air Monitor. The Model 3101 Tritium in Air Monitor features ruggedized and flexible operation. It is powered by rechargeable internal NiMH batteries and/or an external +12 Vdc power supply. It features a maintenance-free diaphragm air pump to pull air through the 250 cc tritium chamber, and the air flow is measured internally with a mass-air flow sensor. A second 250 cc chamber is used to provide gamma compensation, allowing operation in higher gamma fields. Other internal sensors measure temperature and ambient pressure and provide compensation for these effects.',
+        img: require('@/assets/images/product/m3101.png')
+      },
+      {
+        id: 38,
+        name: 'Model 3277/1',
+        description: 'Alpha-Beta Frisker. The Model 3277/1 is a wall-mount or desktop instrument that can be used for frisking personnel or objects for alpha and beta contamination. A large, color touch-screen displays alpha and beta readings simultaneously, and dual tone click-audio enables the user to easily distinguish between alpha and beta contamination. Power is supplied by either an internal, rechargeable battery or a 100 - 240 Vdc wall transformer. Battery life is approximately 8 hours under normal usage.',
+        img: require('@/assets/images/product/m3277.png')
+      },
+      // {
+      //   id: 39,
+      //   name: '',
+      //   description: '',
+      //   img: require('@/assets/images/product/grease.jpg')
+      // },
+
+
+
+
     ]
   },
   getters: {
