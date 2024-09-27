@@ -100,7 +100,7 @@ export default {
         this.services = this.$store.state.services
         this.products = this.$store.state.products
 
-        // console.log(this.$store.state.services)
+        console.log(this.services)
     },
 
     methods: {
